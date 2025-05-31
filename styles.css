@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fdf6f0;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+  background-color: #ffb347;
+  color: white;
+}
+
+.vision-board {
+  column-count: 3;
+  column-gap: 15px;
+  padding: 2rem;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.vision-board img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: block;
+}
